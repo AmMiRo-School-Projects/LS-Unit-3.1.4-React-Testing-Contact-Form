@@ -45,11 +45,11 @@ In order to complete your mission for today, you will need to write tests to hel
 
 _If you come across any "unexpected" behaviors, try this flow:_
 
-- [ ] Write a test that will pass for the "exptected" behavior
-- [ ] Confirm that the test fails, because of the "unexpected" behavior
-- [ ] Look at the code in the project to find what is causing the behavior
-- [ ] Fix the code so that your new test passes
-- [ ] Celebrate that your test helped you find and fix a bug!
+- [x] Write a test that will pass for the "exptected" behavior
+- [x] Confirm that the test fails, because of the "unexpected" behavior
+- [x] Look at the code in the project to find what is causing the behavior
+- [x] Fix the code so that your new test passes
+- [x] Celebrate that your test helped you find and fix a bug!
 
 ## Stretch goals
 

@@ -8,13 +8,13 @@ import {
 import "mutationobserver-shim";
 import ContactForm from "./ContactForm";
 
-// test("form elements are rendered", () => {
-//   const { getByLabelText } = render(<ContactForm />);
-//   getByLabelText(/first name/i);
-//   getByLabelText(/last name/i);
-//   getByLabelText(/email/i);
-//   getByLabelText(/message/i);
-// });
+test("form elements are rendered", () => {
+  const { getByLabelText } = render(<ContactForm />);
+  getByLabelText(/first name/i);
+  getByLabelText(/last name/i);
+  getByLabelText(/email/i);
+  getByLabelText(/message/i);
+});
 
 test("form submit submits appropriate values", async () => {
   const { getByLabelText, getByTestId } = render(<ContactForm />);
